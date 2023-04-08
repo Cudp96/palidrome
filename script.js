@@ -29,7 +29,7 @@ function reverseString(word){
 
   else if (words == newWords){
     console.log("It's a  palidrome")
-    resultEl.innerText = `${word} is a palidrome.`;
+    resultEl.innerText = `${word} is a palindrome.`;
     // let para = document.createElement('p')
     // let text = document.createTextNode(`${word} is palidrome`)
     // para.append(text)
@@ -39,7 +39,7 @@ function reverseString(word){
   else{
     
     console.log("It's not palidrome")
-    resultEl.innerHTML = `${word} is not a palidrome.`
+    resultEl.innerHTML = `${word} is not a palindrome.`
     // let para = document.createElement('p')
     // let text = document.createTextNode(`${word} not palidrome`)
     // para.append(text)
